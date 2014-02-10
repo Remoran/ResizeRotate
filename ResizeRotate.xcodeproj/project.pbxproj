@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943B055C18A8912E005657E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B055B18A8912E005657E3 /* Foundation.framework */; };
+		943B055E18A8912E005657E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B055D18A8912E005657E3 /* CoreGraphics.framework */; };
+		943B056018A8912E005657E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B055F18A8912E005657E3 /* UIKit.framework */; };
+		943B056618A8912E005657E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943B056418A8912E005657E3 /* InfoPlist.strings */; };
+		943B056818A8912E005657E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943B056718A8912E005657E3 /* main.m */; };
+		943B056C18A8912E005657E3 /* ResizeRotateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943B056B18A8912E005657E3 /* ResizeRotateAppDelegate.m */; };
+		943B056F18A8912E005657E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943B056D18A8912E005657E3 /* Main.storyboard */; };
+		943B057218A8912E005657E3 /* ResizeRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943B057118A8912E005657E3 /* ResizeRotateViewController.m */; };
+		943B057418A8912E005657E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943B057318A8912E005657E3 /* Images.xcassets */; };
+		943B057B18A8912F005657E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B057A18A8912F005657E3 /* XCTest.framework */; };
+		943B057C18A8912F005657E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B055B18A8912E005657E3 /* Foundation.framework */; };
+		943B057D18A8912F005657E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B055F18A8912E005657E3 /* UIKit.framework */; };
+		943B058518A8912F005657E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943B058318A8912F005657E3 /* InfoPlist.strings */; };
+		943B058718A8912F005657E3 /* ResizeRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943B058618A8912F005657E3 /* ResizeRotateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943B057E18A8912F005657E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943B055018A8912E005657E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943B055718A8912E005657E3;
+			remoteInfo = ResizeRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943B055818A8912E005657E3 /* ResizeRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943B055B18A8912E005657E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		943B055D18A8912E005657E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		943B055F18A8912E005657E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		943B056318A8912E005657E3 /* ResizeRotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeRotate-Info.plist"; sourceTree = "<group>"; };
+		943B056518A8912E005657E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		943B056718A8912E005657E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		943B056918A8912E005657E3 /* ResizeRotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizeRotate-Prefix.pch"; sourceTree = "<group>"; };
+		943B056A18A8912E005657E3 /* ResizeRotateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizeRotateAppDelegate.h; sourceTree = "<group>"; };
+		943B056B18A8912E005657E3 /* ResizeRotateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeRotateAppDelegate.m; sourceTree = "<group>"; };
+		943B056E18A8912E005657E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943B057018A8912E005657E3 /* ResizeRotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizeRotateViewController.h; sourceTree = "<group>"; };
+		943B057118A8912E005657E3 /* ResizeRotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeRotateViewController.m; sourceTree = "<group>"; };
+		943B057318A8912E005657E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		943B057918A8912F005657E3 /* ResizeRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943B057A18A8912F005657E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		943B058218A8912F005657E3 /* ResizeRotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeRotateTests-Info.plist"; sourceTree = "<group>"; };
+		943B058418A8912F005657E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		943B058618A8912F005657E3 /* ResizeRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeRotateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943B055518A8912E005657E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B055E18A8912E005657E3 /* CoreGraphics.framework in Frameworks */,
+				943B056018A8912E005657E3 /* UIKit.framework in Frameworks */,
+				943B055C18A8912E005657E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943B057618A8912F005657E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B057B18A8912F005657E3 /* XCTest.framework in Frameworks */,
+				943B057D18A8912F005657E3 /* UIKit.framework in Frameworks */,
+				943B057C18A8912F005657E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943B054F18A8912E005657E3 = {
+			isa = PBXGroup;
+			children = (
+				943B056118A8912E005657E3 /* ResizeRotate */,
+				943B058018A8912F005657E3 /* ResizeRotateTests */,
+				943B055A18A8912E005657E3 /* Frameworks */,
+				943B055918A8912E005657E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943B055918A8912E005657E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943B055818A8912E005657E3 /* ResizeRotate.app */,
+				943B057918A8912F005657E3 /* ResizeRotateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943B055A18A8912E005657E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943B055B18A8912E005657E3 /* Foundation.framework */,
+				943B055D18A8912E005657E3 /* CoreGraphics.framework */,
+				943B055F18A8912E005657E3 /* UIKit.framework */,
+				943B057A18A8912F005657E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		943B056118A8912E005657E3 /* ResizeRotate */ = {
+			isa = PBXGroup;
+			children = (
+				943B056A18A8912E005657E3 /* ResizeRotateAppDelegate.h */,
+				943B056B18A8912E005657E3 /* ResizeRotateAppDelegate.m */,
+				943B056D18A8912E005657E3 /* Main.storyboard */,
+				943B057018A8912E005657E3 /* ResizeRotateViewController.h */,
+				943B057118A8912E005657E3 /* ResizeRotateViewController.m */,
+				943B057318A8912E005657E3 /* Images.xcassets */,
+				943B056218A8912E005657E3 /* Supporting Files */,
+			);
+			path = ResizeRotate;
+			sourceTree = "<group>";
+		};
+		943B056218A8912E005657E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				943B056318A8912E005657E3 /* ResizeRotate-Info.plist */,
+				943B056418A8912E005657E3 /* InfoPlist.strings */,
+				943B056718A8912E005657E3 /* main.m */,
+				943B056918A8912E005657E3 /* ResizeRotate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		943B058018A8912F005657E3 /* ResizeRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				943B058618A8912F005657E3 /* ResizeRotateTests.m */,
+				943B058118A8912F005657E3 /* Supporting Files */,
+			);
+			path = ResizeRotateTests;
+			sourceTree = "<group>";
+		};
+		943B058118A8912F005657E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				943B058218A8912F005657E3 /* ResizeRotateTests-Info.plist */,
+				943B058318A8912F005657E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943B055718A8912E005657E3 /* ResizeRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943B058A18A8912F005657E3 /* Build configuration list for PBXNativeTarget "ResizeRotate" */;
+			buildPhases = (
+				943B055418A8912E005657E3 /* Sources */,
+				943B055518A8912E005657E3 /* Frameworks */,
+				943B055618A8912E005657E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeRotate;
+			productName = ResizeRotate;
+			productReference = 943B055818A8912E005657E3 /* ResizeRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943B057818A8912F005657E3 /* ResizeRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943B058D18A8912F005657E3 /* Build configuration list for PBXNativeTarget "ResizeRotateTests" */;
+			buildPhases = (
+				943B057518A8912F005657E3 /* Sources */,
+				943B057618A8912F005657E3 /* Frameworks */,
+				943B057718A8912F005657E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943B057F18A8912F005657E3 /* PBXTargetDependency */,
+			);
+			name = ResizeRotateTests;
+			productName = ResizeRotateTests;
+			productReference = 943B057918A8912F005657E3 /* ResizeRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943B055018A8912E005657E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ResizeRotate;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					943B057818A8912F005657E3 = {
+						TestTargetID = 943B055718A8912E005657E3;
+					};
+				};
+			};
+			buildConfigurationList = 943B055318A8912E005657E3 /* Build configuration list for PBXProject "ResizeRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943B054F18A8912E005657E3;
+			productRefGroup = 943B055918A8912E005657E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943B055718A8912E005657E3 /* ResizeRotate */,
+				943B057818A8912F005657E3 /* ResizeRotateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943B055618A8912E005657E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B057418A8912E005657E3 /* Images.xcassets in Resources */,
+				943B056618A8912E005657E3 /* InfoPlist.strings in Resources */,
+				943B056F18A8912E005657E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943B057718A8912F005657E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B058518A8912F005657E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943B055418A8912E005657E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B056818A8912E005657E3 /* main.m in Sources */,
+				943B056C18A8912E005657E3 /* ResizeRotateAppDelegate.m in Sources */,
+				943B057218A8912E005657E3 /* ResizeRotateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943B057518A8912F005657E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B058718A8912F005657E3 /* ResizeRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943B057F18A8912F005657E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943B055718A8912E005657E3 /* ResizeRotate */;
+			targetProxy = 943B057E18A8912F005657E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943B056418A8912E005657E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943B056518A8912E005657E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		943B056D18A8912E005657E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943B056E18A8912E005657E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943B058318A8912F005657E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943B058418A8912F005657E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943B058818A8912F005657E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		943B058918A8912F005657E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943B058B18A8912F005657E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeRotate/ResizeRotate-Prefix.pch";
+				INFOPLIST_FILE = "ResizeRotate/ResizeRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		943B058C18A8912F005657E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeRotate/ResizeRotate-Prefix.pch";
+				INFOPLIST_FILE = "ResizeRotate/ResizeRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		943B058E18A8912F005657E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizeRotate.app/ResizeRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeRotate/ResizeRotate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ResizeRotateTests/ResizeRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		943B058F18A8912F005657E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizeRotate.app/ResizeRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeRotate/ResizeRotate-Prefix.pch";
+				INFOPLIST_FILE = "ResizeRotateTests/ResizeRotateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943B055318A8912E005657E3 /* Build configuration list for PBXProject "ResizeRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943B058818A8912F005657E3 /* Debug */,
+				943B058918A8912F005657E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943B058A18A8912F005657E3 /* Build configuration list for PBXNativeTarget "ResizeRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943B058B18A8912F005657E3 /* Debug */,
+				943B058C18A8912F005657E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943B058D18A8912F005657E3 /* Build configuration list for PBXNativeTarget "ResizeRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943B058E18A8912F005657E3 /* Debug */,
+				943B058F18A8912F005657E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943B055018A8912E005657E3 /* Project object */;
+}
